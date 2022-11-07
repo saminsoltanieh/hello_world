@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std ;
+/* Tamrin 2nd 2adad sahih*/
+int main()
+{
+    int a , b ;
+    int SUM,DIFFERENCE,PRODUCT,QUOTIENT ;
+    cout<< "Enter the first number :" ;
+    cin>> a ;
+    cout << "Enter the second number :" ;
+    cin>> b ;
+    SUM = a+b ;
+    DIFFERENCE= a-b;
+    PRODUCT= a*b;
+    QUOTIENT= a/b ;
+    cout << "sum=" << sum << \n "diffrence=" << diffrence << \n "prodct=" << product << \n"quatient=" << quatient;
+    
+
+
+    return 0;
+}
